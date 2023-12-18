@@ -1,0 +1,25 @@
+0 => stands for valid intersection 
+
+ 
+1 => stands for Player  
+
+
+2 => stands for AIAgent  
+
+
+ObjectSet ==> Leeh?
+
+
+// for (let i = 0; i < BOARD_SIZE; i++) {
+//     for (let j = 0; j < BOARD_SIZE -3; j++) {
+//         if (
+//             board[i][j] === piece &&
+//             board[i+1][j] === piece &&
+//             board[i+2][j + 2] === piece &&
+//             board[i+3][j ] === piece &&
+//             board[i+4][j] === piece
+//           ) {
+//             return true;
+//           }
+//     }
+// }

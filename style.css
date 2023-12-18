@@ -1,0 +1,43 @@
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+
+.pente {
+    fill: #fddea3;
+}
+
+.board {
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+
+.boardcircle, .boardline {
+    stroke: #000;
+    stroke-width: 0.25px;
+    pointer-events: none;
+}
+
+#white-stone-gradient {
+    --color1: #fff;
+    --color2: #dcdcdc;
+}
+
+#black-stone-gradient {
+    --color1: grey;
+    --color2: #000;
+}
